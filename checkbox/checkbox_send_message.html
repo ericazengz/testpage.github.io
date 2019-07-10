@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bothub SDK 电商使用示例 - PROD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .fb_iframe_widget {
+            display: block !important;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <h1>Bothub SDK 电商使用示例</h1>
+    <p>
+        配置商品信息后可通过 messenger_checkbox 或 send_to_messenger 插件将订单信息发送到用户Messenger
+        <a href="https://github.com/bothub-ai/bothub-jssdk" target="_blank">查看文档</a>
+    </p>
+</section>
+
+<!-- 加载 Checkbox Plugin -->
+<div id="bothub-messenger-checkbox" prechecked="true" size="small"></div>
+
+<div class="btn-group" style="margin-bottom: 50px">
+    <button onclick="BOTHUB.ECommerce.resetMessengerCheckboxReceipt(receipt_reset)">设置订单回执数据</button>
+    <button onclick="BOTHUB.Marketing.logAddedToCartEvent()">发送消息</button>
+</div>
+
+<!-- 加载 Send to Messenger Plugin -->
+<div id="bothub-send-to-messenger" color="blue" size="standard"></div>
+
+<div class="btn-group" style="margin-top: 10px">
+    <button onclick="BOTHUB.ECommerce.resetSendToMessengerReceipt(receipt_reset)">设置订单回执数据</button>
+    <button onclick="BOTHUB.ECommerce.resetSendToMessengerFeed(feed_reset)">设置商品列表数据</button>
+</div>
+
+<!-- 电商相关数据 按需使用-->
+<script src="https://sdk.bothub.ai/data/ecommerce.js"></script>
+
+<!-- 在body最底部加入sdk代码 -->
+<script>
+    window.BOTHUB = {
+        facebook_page_id: "418140585694838",
+        messenger_app_id: "611599205958417",
+        api_server: "https://t.bothub.ai/",
+        entrance: {
+            fb_messenger_checkbox_ref:  {"gateway":"engagement","code":"receipt_checkbox","psid":0,"hash_id":46},
+            fb_customerchat_ref: "base64:eyJnYXRld2F5IjoiZW5nYWdlbWVudCIsImNvZGUiOiI0ZSIsInBzaWQiOjB9",
+            fb_send_to_messenger_data_ref: "base64:eyJnYXRld2F5IjoiZW5nYWdlbWVudCJ9",
+        },
+        // 电商数据
+        ecommerce: {
+            send_to_messenger: {
+                receipt: receipt_data,
+                feed: feed_data
+            },
+            messenger_checkbox: {
+                receipt: receipt_data
+            }
+        },
+        debug: true,
+    };
+    (function(s,id,l){s.id=id;s.src=l;window[id]||document.body.appendChild(s)})
+    (document.createElement('script'),'bothub-sdk','sdk_bothub.js');
+</script>
+</body>
+</html>

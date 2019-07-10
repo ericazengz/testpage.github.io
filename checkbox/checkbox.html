@@ -160,17 +160,10 @@
         </section>
         <section>
             <h3>标准事件</h3>
-            <el-button type="primary" size="medium" @click="window.BH.init({
-                pageId: '418140585694838',
-                language: 'en_US',
-                renderImmediately: true,
-                widgets: [
-                    {
-                        "id": "bh-example-message-us",
-                        "type": "MessageUs",
-                        "color": "bule",
-                    },
-                ],
+            <el-button type="primary" size="medium" @click="window.BH.Event.purchase({
+                orderNumber: '1',
+                currency: 'USD',
+                totalPrice: 26.99,
             })">商品支付</el-button>
         </section>
     </article>
