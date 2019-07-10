@@ -165,6 +165,18 @@
                 currency: 'USD',
                 totalPrice: 26.99,
             })">商品支付</el-button>
+            <el-button type="primary" size="medium" @click="window.BH.init({
+    pageId: '491227725017609',
+    language: 'en_US',
+    renderImmediately: true,
+    widgets: [
+        {
+            "id": "bh-example-message-us",
+            "type": "MessageUs",
+            "color": "bule",
+            },
+            ],
+            })">商品支付</el-button>
         </section>
     </article>
 </div>
