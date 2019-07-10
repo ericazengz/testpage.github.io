@@ -310,7 +310,7 @@
         config.page_id = config.facebook_page_id
         config.custom_user_id = Utils.getCustomUserId()
         config.fb_user_id = Utils.getFacebookUserId('fb_user_id')
-        config.api_server = config.api_server || 'https://t.bothub.ai/'
+        config.api_server = config.api_server || 'https://t.uat.bothub.ai/'
         config.entrance = config.entrance || {}
         config.ecommerce = config.ecommerce || {}
 
