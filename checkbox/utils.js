@@ -1,14 +1,7 @@
 // 全局 pageId（Bothub Fashion）
-var pageId = getQueryString('pageId') || 418140585694838;
+var pageId = 418140585694838;
 // 全局 appId（uat app）
-var appId = getQueryString('appId') || 611599205958417;
-
-function getQueryString(name) {
-    const reg = '(^|&)' + name + '=([^&]*)(&|$)';
-    const result = window.location.search.substr(1).match(reg);
-
-    return result ? unescape(result[2]) : null;
-}
+var appId = 611599205958417;
 
 function createVueComponent(data) {
     return new Vue ({
