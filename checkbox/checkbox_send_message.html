@@ -25,25 +25,16 @@
 <div id="bothub-messenger-checkbox" prechecked="true" size="small"></div>
 
 <div class="btn-group" style="margin-bottom: 50px">
-    <button onclick="BOTHUB.ECommerce.resetMessengerCheckboxReceipt(receipt_reset)">设置订单回执数据</button>
     <button onclick="BOTHUB.Marketing.logAddedToCartEvent()">发送消息</button>
 </div>
 
 <!-- 加载 Send to Messenger Plugin -->
 <div id="bothub-send-to-messenger" color="blue" size="standard"></div>
 
-<div class="btn-group" style="margin-top: 10px">
-    <button onclick="BOTHUB.ECommerce.resetSendToMessengerReceipt(receipt_reset)">设置订单回执数据</button>
-    <button onclick="BOTHUB.ECommerce.resetSendToMessengerFeed(feed_reset)">设置商品列表数据</button>
-</div>
-
-<!-- 电商相关数据 按需使用-->
-<script src="https://sdk.bothub.ai/data/ecommerce.js"></script>
-
 <!-- 在body最底部加入sdk代码 -->
 <script>
     window.BOTHUB = {
-        facebook_page_id: "418140585694838",
+        facebook_page_id: "491227725017609",
         messenger_app_id: "611599205958417",
         api_server: "https://t.bothub.ai/",
         entrance: {

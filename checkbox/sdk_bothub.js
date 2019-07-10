@@ -316,7 +316,7 @@
 
         var Messenger = {
             origin: location.protocol + "//" + location.host,
-            page_id: '418140585694838',
+            page_id: '491227725017609',
             messenger_app_id: '611599205958417',
             user_ref: Utils.getUserRef(),
             fb_user_id: config.fb_user_id,

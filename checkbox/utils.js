@@ -1,5 +1,5 @@
 // 全局 pageId（Bothub Fashion）
-var pageId = 418140585694838;
+var pageId = 491227725017609;
 // 全局 appId（uat app）
 var appId = 611599205958417;
 
