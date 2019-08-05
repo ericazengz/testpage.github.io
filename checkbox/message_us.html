@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bothub SDK 使用示例 - PROD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="message_us_stype.css?v=ck0hdocyf3">
+</head>
+<body class="index-page">
+<section>
+    <h1>Bothub SDK 使用示例</h1>
+    <p>
+        SDK 提供了一些网页插件，使用这些插件可以根据用户不同的操作行为（如：加入购物车、愿望清单、下订单等）给用户发送相关消息。<br><br>
+        SDK 使用方式请参看网页源码或 <a href="https://github.com/bothub-ai/bothub-jssdk" target="_blank">查看文档</a>
+    </p>
+</section>
+
+<h2>网页插件</h2>
+<!-- 加载 Checkbox Plugin -->
+<div id="bothub-messenger-checkbox" prechecked="true" size="small"></div>
+
+<!-- 加载 Send to Messenger Plugin -->
+<div id="bothub-send-to-messenger" color="blue" size="standard"></div>
+
+<!-- 加载 Message Us Plugin -->
+<div id="bothub-messengermessageus" color="blue" size="standard"></div>
+
+<!-- 加载 Customer Chat Plugin -->
+<div id="bothub-customerchat"></div>
+
+<!-- 在body最底部加入sdk代码 -->
+<script>
+    window.BOTHUB = {
+        facebook_page_id: "491227725017609",
+        messenger_app_id: "611599205958417",
+        platforms: ['facebook', 'bothub'],
+        debug: true,
+    };
+    (function(s,id,l){s.id=id;s.src=l;window[id]||document.body.appendChild(s)})
+    (document.createElement('script'),'bothub-sdk','https://sdk.bothub.ai/bothub.js');
+</script>
+</body>
+</html>
