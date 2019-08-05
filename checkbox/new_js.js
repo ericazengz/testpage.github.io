@@ -18,6 +18,6 @@ window.bhAsyncInit.push(function() {
 (function(d){
     var js, id = 'bothub-jssdk'; if (d.getElementById(id)) {return;}
     js = d.createElement('script'); js.id = id;
-    js.async = true; js.src = "https://uniqueapple123.github.io/testpage.github.io/checkbox/sdk-2-latest.js";
+    js.async = true; js.src = "https://uniqueapple123.github.io/testpage.github.io/checkbox/sdk-latest.js";
     d.getElementsByTagName('head')[0].appendChild(js);
 }(document));
