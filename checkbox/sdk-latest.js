@@ -1275,7 +1275,7 @@
             return !te(e)
         }
 
-        var oe = "https://t.bothub.ai/";
+        var oe = "https://t.uat.bothub.ai/";
 
         function ie(e) {
             var t = function e(t, n) {
