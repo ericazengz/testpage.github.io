@@ -1,10 +1,14 @@
+---
+description: 短链接、聊天插件、发送消息插件、复选框插件、优惠券插件、二维码
+---
+
 # 推广插件
 
 除了用户主动从Facebook Page上的Messenger入口主动和您的Messenger机器人聊天，或者用户从Facebook Messenger中通过搜索找到您的Messenger机器人之外，Messenger 支持多种访问方式。
 
 而**“推广插件”**功能就是将这些推广方式的入口都统一起来。同时还提供了相应的数据报表，即“流量来源”。
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%28108%29.png)
 
 ### 效果预览
 

@@ -2,7 +2,7 @@
 description: '让您能够更有效的管理广告内容, 实现Messenger广告投放与机器人的结合。'
 ---
 
-# Click-to-Messenger广告
+# Click to Messenger广告
 
 在Meetbot上，您可以创建自定义消息内容用于广告投放，并且追踪广告来源用户数据。
 
