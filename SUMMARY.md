@@ -9,7 +9,7 @@
   * [人工客服转接](ji-chu-zhi-shi/ren-gong-zhuan-jie.md)
 * [多样化引流](duo-yang-hua-yin-liu/README.md)
   * [Click-to-Messenger广告](duo-yang-hua-yin-liu/guang-gao-mo-ban-sheng-cheng.md)
-  * [贴子评论自动回复](duo-yang-hua-yin-liu/tie-zi-ping-lun-zi-dong-hui-fu.md)
+  * [帖子评论自动回复](duo-yang-hua-yin-liu/tie-zi-ping-lun-zi-dong-hui-fu.md)
   * [推广插件](duo-yang-hua-yin-liu/tui-guang-cha-jian.md)
 * [场景应用](chang-jing-ying-yong/README.md)
   * [电商消息模板](chang-jing-ying-yong/untitled.md)

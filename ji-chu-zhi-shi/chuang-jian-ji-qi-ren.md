@@ -30,5 +30,5 @@ description: 通过Meetbot三步快速创建一个属于你自己的Messenger聊
 
 之后，您可以进一步点击侧面的菜单栏，如 "内容管理" 等，根据您的需要配置 Messenger 聊天机器人了。
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LrrHh9g4DKqNaQBBt35%2F-LsynCsx0uQHhQX9JjLp%2F-LsyrKfYzIbERuyL6_0P%2F6.png?alt=media&token=f92ef656-0e9d-4333-9086-6c59d41ff07d)
+![](../.gitbook/assets/image%20%28104%29.png)
 
