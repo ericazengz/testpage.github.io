@@ -18,7 +18,7 @@
 
 在用户第一次访问你的Messenger机器人，在入口页面的最下方，会有一个 "开始" 的按钮，点击这个按钮，就会触发您在Meetbot中设置发布的 "欢迎设置"
 
-![](../.gitbook/assets/1.png)
+![](../.gitbook/assets/image%20%28110%29.png)
 
 您可以在 "系统内容" &gt; "欢迎设置" 这个内容块来设置管理。
 
@@ -32,7 +32,7 @@
 
 Facebook Messenger在左下角，提供了一组系统菜单
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%28109%29.png)
 
 你可以在“内容管理 - 系统内容 - 系统菜单”中，配置不同语言机器人菜单。
 
