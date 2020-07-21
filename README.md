@@ -1,5 +1,5 @@
 ---
-description: 概览
+description: Meetbot 是一个无需撰写程序，就能快速搭建 Facebook Messenger Bot 的平台。
 ---
 
 # Meetbot简易说明
